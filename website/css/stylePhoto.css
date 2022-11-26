@@ -1,0 +1,25 @@
+.showDock{
+    text-align: center;
+}
+.photo{
+    margin-top: 100px;
+    transition: all 0.8s;
+    border-radius:5px; 
+}
+.photo:hover{
+    transform: scale(1.1);
+}
+.photo-top{
+    margin-top: 50px;
+    transition: all 0.8s;
+    border-radius:5px; 
+}
+.myVideo{
+    margin: 0 auto;
+    margin-left: 64px;
+}
+.phtotText{
+    margin-top: 36px;
+    font-size: 24px;
+    color: gray;
+}

@@ -1,0 +1,9 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#tittle {
+    text-align: center;
+    color: gray;
+    font-size: large;
+}
