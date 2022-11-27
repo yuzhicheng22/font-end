@@ -16,6 +16,12 @@ class Animal {
 let animal = new Animal('jin');
 
 class Rabbit extends Animal {
+
+    constructor(name, earLength) {
+        super(name);
+        this.earLength = earLength;
+    }
+
     hide() {
         console.log(`${this.name} hides!`);
     }
@@ -25,7 +31,28 @@ class Rabbit extends Animal {
         this.hide(); // 然后 hide
     }
 }
-let rabbit = new Rabbit("White Rabbit");
+let rabbit = new Rabbit("White Rabbit", 10);
 
 rabbit.run(5); // White Rabbit runs with speed 5.
 rabbit.hide(); // White Rabbit hides!
+console.log(rabbit.earLength);
+
+// =====================================
+// Task-1:
+// class Animal {
+
+//     constructor(name) {
+//         this.name = name;
+//     }
+
+// }
+
+// class Rabbit extends Animal {
+//     constructor(name) {
+//         super(name);
+//         this.created = Date.now();
+//     }
+// }
+
+// let rabbit = new Rabbit("White Rabbit"); // Error: this is not defined
+// alert(rabbit.name);
